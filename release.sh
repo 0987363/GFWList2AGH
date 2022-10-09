@@ -127,6 +127,7 @@ function GenerateRules() {
                 "https://dns.opendns.com:443/dns-query"
                 "https://dns.cloudflare.com/dns-query"
                 tls://101.101.101.101
+                tls://1.1.1.1
                 # "https://dns.google:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
