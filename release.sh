@@ -31,7 +31,7 @@ function GetData() {
         "https://raw.githubusercontent.com/pexcn/gfwlist-extras/master/gfwlist-extras.txt"
     )
     gfwlist2agh_modify=(
-        "https://raw.githubusercontent.com/hezhijie0327/GFWList2AGH/source/data/data_modify.txt"
+        "https://raw.githubusercontent.com/0987363/GFWList2AGH/source/data/data_modify.txt"
     )
     rm -rf ./gfwlist2* ./Temp && mkdir ./Temp && cd ./Temp
     for cnacc_domain_task in "${!cnacc_domain[@]}"; do
@@ -116,15 +116,18 @@ function GenerateRules() {
                 # "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
-                "https://doh.pub:443/dns-query"
+                "https://doh.pub/dns-query"
+                "https://dns.alidns.com/dns-query"
                 # "tls://dns.alidns.com:853"
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
             )
             foreign_dns=(
-                # "https://dns.google:443/dns-query"
                 "https://dns.opendns.com:443/dns-query"
+                "https://dns.cloudflare.com/dns-query"
+                tls://101.101.101.101
+                # "https://dns.google:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
                 # "tls://dns.google:853"
