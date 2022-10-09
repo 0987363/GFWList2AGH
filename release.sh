@@ -124,9 +124,9 @@ function GenerateRules() {
                 # "tls://dot.pub:853"
             )
             foreign_dns=(
-                "https://dns.opendns.com:443/dns-query"
                 "https://dns.cloudflare.com/dns-query"
                 tls://101.101.101.101
+                "https://dns.opendns.com:443/dns-query"
                 tls://1.1.1.1
                 # "https://dns.google:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
