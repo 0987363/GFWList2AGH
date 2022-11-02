@@ -198,7 +198,4 @@
 # 治杰 Online
 (@&!)zhijie.online
 
-# Druid
-(@%!)druidtech.cn
-
 ## 自定义规则 - 结束
